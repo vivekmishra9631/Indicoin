@@ -8,9 +8,9 @@ const DAppPlatform = () => {
       <Navbar />
       <div className="bg-gradient-to-r from-gray-900 via-purple-900 to-indigo-900 text-white py-12">
         <div className="container mx-auto px-6">
-          <h1 className="text-5xl font-bold mb-8 text-center">DApp Development Platform</h1>
+          <h1 className="text-5xl font-bold mb-8 text-center">Global all-in-one platform</h1>
           <p className="text-lg mb-12 text-center max-w-3xl mx-auto">
-            Build innovative applications on our platform with pre-built smart contract templates, comprehensive SDKs, and secure API access. Empower your creativity with the tools you need to bring your ideas to life on the secure and scalable Rootstock blockchain.
+          Supercharge your app with USDC. Effortless integration, no blockchain headaches.
           </p>
 
           {/* Platform Features Section */}
@@ -34,12 +34,12 @@ const DAppPlatform = () => {
             <h2 className="text-4xl font-bold mb-8 text-center">Developer Tools</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               <div className="bg-gray-800 p-8 rounded-lg shadow-lg">
-                <h3 className="text-2xl font-bold mb-4">Integrated Development Environment (IDE)</h3>
-                <p>Leverage our cloud-based IDE designed for DApp development, with real-time collaboration, debugging tools, and deployment capabilities.</p>
+                <h3 className="text-2xl font-bold mb-4">Web3 Services</h3>
+                <p>Composable APIs and SDKs to bring any web or mobile app on-chain.</p>
               </div>
               <div className="bg-gray-800 p-8 rounded-lg shadow-lg">
-                <h3 className="text-2xl font-bold mb-4">Blockchain Explorer</h3>
-                <p>Gain insights into the blockchain with our integrated explorer, allowing you to track transactions, monitor contract performance, and more.</p>
+                <h3 className="text-2xl font-bold mb-4">Distributed Ledger Technology</h3>
+                <p> Developers can leverage DLT to create immutable records of stablecoin issuance, redemption, and transactions. Smart contracts can automate these processes, ensuring transparency and efficiency. </p>
               </div>
               <div className="bg-gray-800 p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-bold mb-4">Testnet Environment</h3>
@@ -52,20 +52,7 @@ const DAppPlatform = () => {
             </div>
           </div>
 
-          {/* Testimonials Section */}
-          <div className="mb-16">
-            <h2 className="text-4xl font-bold mb-8 text-center">What Developers Are Saying</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-              <div className="bg-gray-800 p-8 rounded-lg shadow-lg">
-                <p className="italic mb-4">"The Indi Coin platform has transformed how we develop and deploy decentralized applications. The tools are top-notch and the support is exceptional."</p>
-                <p className="font-bold">- Sarah K., Lead Developer at CryptoDev</p>
-              </div>
-              <div className="bg-gray-800 p-8 rounded-lg shadow-lg">
-                <p className="italic mb-4">"The seamless integration with the Rootstock blockchain and the comprehensive SDKs have made our development process faster and more efficient."</p>
-                <p className="font-bold">- John D., Blockchain Engineer at FinTech Solutions</p>
-              </div>
-            </div>
-          </div>
+         
 
           {/* Call to Action Section */}
           <div className="text-center">

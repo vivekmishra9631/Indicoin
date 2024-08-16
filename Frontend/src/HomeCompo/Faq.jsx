@@ -9,7 +9,7 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: 'What is INDICOIN and how does it work?',
+      question: 'What is INDICOIN?',
       answer: 'INDICOIN is a stablecoin pegged to the Indian Rupee (INR), backed by fiat reserves and designed to offer stability and efficiency for INR-based transactions. It is deployed on polygon platform to ensure security and transparency.'
     },
     {
@@ -17,28 +17,28 @@ const FAQ = () => {
       answer: 'INDICOIN maintains its INR peg by backing the stablecoin with sufficient INR reserves. This ensures that each INDICOIN is fully supported by real assets, offering stability to its value.'
     },
     {
-      question: 'What are the key benefits of using INDICOIN?',
-      answer: 'INDICOIN provides several advantages, including instant transactions, yield generation by holding the coin, and the elimination of third-party commissions, which reduce costs for businesses and consumers alike.'
+      question: 'Is the INDICOIN regulated?',
+      answer: 'Yes, the INDICOIN is designed to fully comply with Indian laws and regulations, including KYC, AML, and RBI guidelines.'
     },
     {
-      question: 'How does the INDICOIN DAO function?',
-      answer: 'The INDICOIN DAO (Decentralized Autonomous Organization) governs the ecosystem, allowing token holders to vote on critical decisions like reserve allocation, fee structures, and platform development, ensuring transparency and decentralization.'
+      question: 'Is my money safe?',
+      answer: 'Your funds are safeguarded through full reserve backing, regular audits, and the use of a reputable custodian.'
     },
     {
-      question: 'What is the purpose of the DApp development platform offered by INDICOIN?',
-      answer: 'The DApp development platform empowers developers by providing tools such as smart contract templates, SDKs, and secure API access to build innovative INR-based decentralized applications (DApps) that integrate seamlessly with INDICOIN.'
+      question: 'How can I acquire INDICOIN?',
+      answer: 'INDICOIN can be aquired at the CEXs in India, once after the release.'
     },
     {
-      question: 'How does INDICOIN contribute to financial inclusion in India?',
-      answer: 'By offering a stable, INR-pegged digital currency, INDICOIN aims to bridge the financial inclusion gap in India, especially in rural and underserved areas, by providing accessible and secure payment solutions.'
+      question: 'Can I use INDICOIN for international transactions?',
+      answer: 'Currently, the INDICOIN is primarily focused on domestic transactions within India.'
     },
     {
-      question: 'What partnerships and collaborations support the INDICOIN ecosystem?',
-      answer: 'INDICOIN is supported by partnerships with blockchain technology providers, financial institutions, and digital platforms. These collaborations help in maintaining the infrastructure, ensuring regulatory compliance, and enhancing user engagement.'
+      question: 'What are the potential use cases for INR Stablecoins?',
+      answer: 'Payments, remittances, trade finance, and financial inclusion.'
     },
     {
-      question: 'What are the security measures in place for INDICOIN?',
-      answer: 'INDICOIN employs robust cybersecurity measures and complies with regulatory requirements to ensure the security of transactions and user funds.'
+      question: 'Are there any risks associated with using INR Stablecoins?',
+      answer: 'Like any digital asset, there are inherent risks. However, the INR Stablecoin is designed to minimize these risks through full reserve backing and regulatory compliance.'
     }
   ];
 
