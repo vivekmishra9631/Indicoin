@@ -1,8 +1,6 @@
 import React from 'react';
 import Navbar from '../HomeCompo/Navbar';
 import Footer from '../HomeCompo/Footer';
-import ceo from "../Assets/Ceo.jpg";
-import coo from "../Assets/COO.jpg";
 
 const About = () => {
   return (
@@ -14,7 +12,7 @@ const About = () => {
           <section className="mb-16">
             <h1 className="text-5xl font-bold mb-8 text-center">About <span className="text-indigo-400">INDICOIN</span></h1>
             <p className="text-lg mb-8 text-center max-w-4xl mx-auto">
-              INDICOIN is a cutting-edge cryptocurrency pegged to the Indian Rupee, providing stability and security in the rapidly evolving world of digital finance. Built on the Rootstock blockchain, Indi Coin combines the security of Bitcoin with the versatility of smart contracts, enabling a new era of decentralized finance (DeFi) in India.
+              INDICOIN is a cutting-edge cryptocurrency pegged to the Indian Rupee, providing stability and security in the rapidly evolving world of digital finance.Indi Coin combines the security of Bitcoin with the versatility of smart contracts, enabling a new era of decentralized finance in India.
             </p>
             <p className="text-lg mb-8 text-center max-w-4xl mx-auto">
               Our mission is to empower individuals and businesses in India by offering a reliable and accessible digital currency that bridges the gap between traditional finance and the growing world of blockchain technology.
@@ -36,24 +34,7 @@ const About = () => {
             </div>
           </section>
 
-          {/* Timeline/Milestones Section */}
-          <section className="mb-16">
-            <h2 className="text-4xl font-bold mb-8 text-center">Our Journey</h2>
-            <div className="relative border-l border-gray-600 pl-6">
-              <div className="mb-8">
-                <h3 className="text-2xl font-bold">2023</h3>
-                <p className="text-lg">Indi Coin was conceptualized with the aim of creating a stablecoin pegged to the Indian Rupee, built on the secure and scalable Rootstock blockchain.</p>
-              </div>
-              <div className="mb-8">
-                <h3 className="text-2xl font-bold">2024</h3>
-                <p className="text-lg">We launched our mainnet, allowing users to transact and build on our platform. We also introduced the Indi Coin DAO for decentralized governance.</p>
-              </div>
-              <div className="mb-8">
-                <h3 className="text-2xl font-bold">2025</h3>
-                <p className="text-lg">Our community grew to over 50,000 active wallets, and we partnered with leading financial institutions to integrate Indi Coin into everyday financial services.</p>
-              </div>
-            </div>
-          </section>
+         
 
           {/* Team Section */}
           {/* <section className="mb-16">
@@ -77,10 +58,10 @@ const About = () => {
           <section className="mb-16">
             <h2 className="text-4xl font-bold mb-8 text-center">Our Technology</h2>
             <p className="text-lg mb-8 text-center max-w-4xl mx-auto">
-              Indi Coin is built on the Rootstock blockchain, which is a sidechain of Bitcoin. This allows us to leverage Bitcoin’s unparalleled security while enabling smart contract functionality. Our platform supports the development of decentralized applications (DApps), making it a versatile solution for developers and businesses alike.
+              Indi Coin is built on the Polygon blockchain. This allows us to leverage network security while enabling smart contract functionality. Our platform supports the development of decentralized applications (DApps), making it a versatile solution for developers and businesses alike.
             </p>
             <p className="text-lg mb-8 text-center max-w-4xl mx-auto">
-              We also employ advanced cryptographic techniques to ensure the stability and security of our coin. By pegging Indi Coin to the Indian Rupee, we provide a stable digital currency that can be used for everyday transactions, reducing the volatility typically associated with cryptocurrencies.
+              INDICOIN always maintains 1:1 parity with fiat based INR. At any given point of time INDICOIN can be redeemed against INR
             </p>
           </section>
 

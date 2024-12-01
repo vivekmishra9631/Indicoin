@@ -22,13 +22,11 @@ const HeroBanner = () => {
             Transforming INR Transactions: Stability and Innovation for the Digital Future
           </p>
           <div className="mb-8">
-            <button className="bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-2 px-4 rounded-full mr-4">
-              Get Started
-            </button>
+            
             <Link to="/indicoin">
-              <button className="bg-transparent border-2 border-white hover:bg-white hover:text-indigo-600 text-white font-bold py-2 px-4 rounded-full">
-                Get an INDICOIN
-              </button>
+            <button className="bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-2 px-4 rounded-full mr-4">
+            Get an INDICOIN
+            </button>
             </Link>
           </div>
         </div>
@@ -41,16 +39,16 @@ const HeroBanner = () => {
       <div className="relative container mx-auto mt-12 px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Key Features Section */}
         <div className="bg-gray-800 p-6 rounded-lg shadow-lg text-center">
-          <h2 className="text-2xl font-bold mb-4">Stable and Secure</h2>
-          <p>INDICOIN is pegged to the Indian Rupee, ensuring stability in a volatile market and deployed on Polygon Network</p>
+          <h2 className="text-2xl font-bold mb-4">Fiat Backed</h2>
+          <p>INDICOIN tokens will be minted in direct proportion to an equal amount of Indian Rupees (INR) deposited in a segregated, independently verifiable bank account.</p>
         </div>
         <div className="bg-gray-800 p-6 rounded-lg shadow-lg text-center">
           <h2 className="text-2xl font-bold mb-4">Developer Friendly</h2>
           <p>Our platform offers ready-to-use SDKs, smart contract templates, and APIs to streamline DApp development for INR-based financial applications.</p>
         </div>
         <div className="bg-gray-800 p-6 rounded-lg shadow-lg text-center">
-          <h2 className="text-2xl font-bold mb-4">Cross-border Payments</h2>
-          <p>Facilitating easier and more-cost effective international remittances by streamlining the process of sending money across borders while reducing associated fees thereby simplifying documentation, speeding up transfer times, and lowering transaction costs.</p>
+          <h2 className="text-2xl font-bold mb-4">Blockchain</h2>
+          <p>INDICOIN is an ERC 20 token, eligible to be used stored in a Digital Wallet like Ethereum Wallet. Only KYC AML cleared customers are offered INDICOIN</p>
         </div>
       </div>
 
